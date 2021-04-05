@@ -118,6 +118,7 @@
    "fieldtype": "Column Break"
   },
   {
+   "allow_on_submit": 1,
    "fieldname": "mode_of_payment",
    "fieldtype": "Link",
    "label": "Mode of Payment",
@@ -154,9 +155,9 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2021-03-30 00:27:11.516802",
+ "modified": "2021-04-05 18:57:24.712892",
  "modified_by": "Administrator",
- "module": "Quick Service",
+ "module": "Lab",
  "name": "Petty Cash Request",
  "owner": "Administrator",
  "permissions": [

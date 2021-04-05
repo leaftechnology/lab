@@ -11,7 +11,7 @@ frappe.ui.form.on('Petty Cash Request', {
 
 	    var show = false
         frappe.call({
-            method: "quick_service.quick_service.doctype.petty_cash_request.petty_cash_request.get_jv",
+            method: "lab.lab.doctype.petty_cash_request.petty_cash_request.get_jv",
             args:{
                 name: cur_frm.doc.name
             },
